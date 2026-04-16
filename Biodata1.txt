@@ -1,0 +1,26 @@
+===BIO DATA===
+👤 Personal Details
+ Name         : Kasiviswanathan
+ Age          : 28
+ Gender       : Male
+ DOB          : 07-07-1997
+ Blood Group  : B+ve
+
+🎓 Education
+ Qualification: B.E ECE
+ College      : K.L.N College
+ CGPA         : 63%
+
+💼 Professional Details
+ Skills       : Java,React
+ Experience   : 1.5yrs Year(s)
+
+📞 Contact
+ Phone        : 9600735065
+ Email        : saikasi97348@gmail.com
+ Address      : C=235,BalajiNagar,Thiruppalai,Madurai
+
+👨‍👩‍👧 Family
+ Father Name  : Ilango
+ Mother Name  : Lakshmi
+================================
