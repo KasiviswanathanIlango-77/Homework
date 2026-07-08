@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modular Calculator</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f0f2f5;
+    }
+    .calculator {
+      background: #fff;
+      padding: 36px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      width: 340px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 24px;
+      color: #1a1a2e;
+      font-size: 24px;
+    }
+    .inputs {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    input {
+      flex: 1;
+      padding: 12px;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      font-size: 16px;
+      text-align: center;
+      outline: none;
+    }
+    input:focus {
+      border-color: #667eea;
+    }
+    .buttons {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    button {
+      flex: 1;
+      padding: 14px;
+      border: none;
+      border-radius: 10px;
+      background: #667eea;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    #result {
+      font-size: 20px;
+      font-weight: 700;
+      color: #667eea;
+      min-height: 28px;
+    }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <h2>🧮 Calculator</h2>
+    <div class="inputs">
+      <input type="number" id="num1" placeholder="Num 1">
+      <input type="number" id="num2" placeholder="Num 2">
+    </div>
+    <div class="buttons">
+      <button id="addBtn">+</button>
+      <button id="subBtn">−</button>
+      <button id="mulBtn">×</button>
+    </div>
+    <div id="result">Result: </div>
+  </div>
+
+  <!-- Must use type="module" for ES6 imports -->
+  <script type="module" src="./main1.js"></script>
+</body>
+</html>
